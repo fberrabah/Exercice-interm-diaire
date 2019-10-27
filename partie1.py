@@ -15,7 +15,7 @@ elif c>a and c>b and c>d:
 else:
      print(d)    
 
-#accès 
+#enter information 
 print("Exercice 2\n")
 try:
     age = int(input("Entrer votre age :"))
@@ -30,7 +30,7 @@ try:
 except ValueError:
     print("Error")
 
-#condition
+#Question and condition
 print("Exercice 3\n")
 secret=143
 trouver=True
@@ -43,6 +43,7 @@ while trouver==True:
     if question == secret :
         print ("vous avez gagné!")
         trouver=False
+
 #1at100
 print("Exercice 4\n")f calcul(lon=35, lar=48, pro=4, deb=9):
     result= lon*lar*pro
@@ -50,11 +51,12 @@ print("Exercice 4\n")f calcul(lon=35, lar=48, pro=4, deb=9):
 for i in range (1,101):
     print(i)
 
+#Range pair
 print("Exercice 5\n")
 for p in range (0,101, 2):
     print (p)
 
-#remlplir une piscine 
+#Fill the pool
 print("Exercice 6\n")
 def calcul(lon=35, lar=48, pro=4, deb=9):
     result= lon*lar*pro
@@ -64,16 +66,20 @@ calcul()
 
 print("Exercice 7\n")
 
+#pi for circle and import math
 from math import pi
 r=float(input("Taper le rayon d'un cercle :"))
 print ("le périmètre du cercle ",r," est :", round(2*pi*r))
 print ("l'aire du cercle ",r," est :", round(pi*r**2))
 
+
+#Make tree
 print ("Exercice 8\n")
 liste=["```","*","**","***","****","*****","```"]
 for i in (liste) :
     print(i)
 
+#Make Fizzbuzz for boucle
 print ("Exercice 9\n")
 
 
