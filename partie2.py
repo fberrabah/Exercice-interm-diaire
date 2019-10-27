@@ -1,4 +1,5 @@
 import random
+#Make double for
 print("Exercice 1\n")
 for x in range(8):
     for y in range(16):
@@ -8,7 +9,8 @@ for x in range(8):
             print(' ', end='')
     print()
 
-print("Exercice 2\n")#faux
+#moove 1 in for
+print("Exercice 2\n")
 
 for i in range (0, 4):
    for j in range (0, 4):
@@ -18,7 +20,8 @@ for i in range (0, 4):
            print (0)
    print("------")
 
-print("Exercice 3\n") #
+#Enter number!
+print("Exercice 3\n") 
 a = float(input(" Entrez le montant du panier : "))
 def montant(a):
     if (a%2)== 0:
@@ -26,6 +29,8 @@ def montant(a):
     else:
         print(bool())    
 montant(a)
+
+#Same with new info 
 print("Exercice 4\n")
 
 num = 1 
@@ -34,11 +39,13 @@ for i in range(1,n+1):
     num = num * i 
 print("Le factorielle de", n, "est de  :", num) 
 
+#replace for string
 print("Exercice 5\n")   
 
 n="Facture de 19286-----euro "
 print(n.replace("-", "\_"))
 
+ #list 
 print("Exercice 6\n")
 liste = [
     "chocolat",
@@ -51,6 +58,7 @@ liste = [
 
 print (liste[0], random.choice(liste), liste[-1])
 
+#double list!
 print("Exercice 7\n")
 for i in [
     "Landers",
@@ -71,13 +79,14 @@ for l in [
         print(k)
     
 print("Exercice 8\n")    
-
+#show max
 num=[1,2,10,5,59,34,23,4]
 print ("le nombre le plus grand est :",max(num))
 
 num=str([1,2,10,5,59,34,23,4,">"])
-print ("le nombre le plus grand est :",max(num))
+print ("l
 
+#register information and show this
 print("Exercice 9\n")   
 mot=" "
 tache= [] #list()
